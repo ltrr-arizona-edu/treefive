@@ -1,0 +1,224 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+body {
+   background-color: #eeeeee;
+}
+
+.zone {
+  background-color: #ffffff;
+}
+
+#region-branding .logo-img {
+  display: none;
+}
+
+#logo {
+  display: none;
+}
+
+#block-block-5 {
+  float: left;
+}
+
+#block-views-calendar-block-3 div.item-list li {
+  margin: 0 0 1.35714em 1em;
+}
+
+#block-views-calendar-block-3 div.item-list ul,
+#block-views-calendar-block-3 div.item-list h3 {
+  margin: 0;
+}
+
+#block-views-calendar-block-3 .view-footer p {
+  margin: 0;
+}
+
+#block-views-calendar-block-3, #block-block-6 {
+  float: right;
+}
+
+#region-sidebar-second {
+  text-align: left;
+}
+
+#section-footer {
+  color: #333333;
+}
+
+#region-footer-first {
+  margin-top: 14px;
+  border-top: 5px solid #cccccc;
+}
+
+#region-postscript-first {
+  text-align: left;
+}
+
+#region-postscript-third {
+  text-align: right;
+}
+
+#region-postscript-first .content {
+  border-right: 2px solid #cccccc;
+}
+
+#region-postscript-third .content {
+  border-left: 2px solid #cccccc;
+}
+
+.sf-menu.sf-style-default {
+  border-bottom: 10px solid #cccccc;
+  font-size: 0.85714em;
+  line-height: 1em;
+}
+
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+  border: none;
+  margin: 0;
+  padding: 0.25em 0.5em;
+  background: #ffffff;
+  color: #224970;
+  border-radius: 0 0 0 0;
+}
+
+.sf-menu.sf-style-default a.active  {
+  background: #cccccc;
+  color: #003399;
+}
+
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background: transparent;
+  border-bottom: 1px solid #cccccc;
+}
+
+.sf-menu.sf-style-default li li {
+  background: transparent;
+}
+
+.sf-menu.sf-style-default li li {
+  background: transparent;
+}
+.sf-menu.sf-style-default li li li {
+  background: transparent;
+}
+
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active {
+  background: #cccccc;
+  text-decoration: underline;
+  color: #224970;
+}
+
+.item-list ul li {
+  margin: 0 0 1.35714em 0;
+}
+
+ul.tree5menu ul.tree5menu {
+  border-bottom: 0 none;
+}
+
+ul.tree5menu {
+  text-align: left;
+  border-bottom: 1px solid #dadada;
+  line-height: 1.25em;
+}
+
+ul.tree5menu li, 
+ul.tree5menu li.expanded, 
+ul.tree5menu li.collapsed,
+ul.tree5menu li.leaf {
+    position: static;
+    float: none;
+}
+
+ul.tree5menu ul.tree5menu li a,
+ul.tree5menu ul.tree5menu li.expanded a,
+ul.tree5menu ul.tree5menu li.collapsed a,
+ul.tree5menu ul.tree5menu li.leaf a {
+    background: url("/sites/all/themes/treefive/images/sub.png") no-repeat scroll 0.5em 0.16667em transparent;
+    border: 0 none;
+    color: #000000;
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 0.25em 0 0.5em 1.5em;
+    text-transform: none;
+    border-radius: 0 0 0 0;
+}
+
+
+ul.tree5menu ul.tree5menu li a:hover,
+ul.tree5menu ul.tree5menu li.expanded a:hover,
+ul.tree5menu ul.tree5menu li.collapsed a:hover,
+ul.tree5menu ul.tree5menu li.leaf a:hover {
+    background: url("/sites/all/themes/treefive/images/sub.png") no-repeat scroll 0.5em 0.16667em #f1f1f1;
+    color: #224970;
+}
+
+ul.tree5menu li a,
+ul.tree5menu li.expanded a,
+ul.tree5menu li.collapsed a,
+ul.tree5menu li.leaf a {
+    background: url("/sites/all/themes/treefive/images/arrow.png") no-repeat scroll right 0.58333em transparent;
+    border-right: 0 none;
+    border-bottom: 0 none;
+    border-left: 0 none;
+    border-top: 1px solid #dadada;
+    color: #000000;
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 0.25em 1em 0.5em 0.25em;
+    text-transform: uppercase;
+    border-radius: 0 0 0 0;
+}
+
+ul.tree5menu li a:hover,
+ul.tree5menu li.expanded a:hover,
+ul.tree5menu li.collapsed a:hover,
+ul.tree5menu li.leaf a:hover {
+    background: url("/sites/all/themes/treefive/images/arrow.png") no-repeat scroll right 0.58333em #f1f1f1;
+    color: #224970;
+}
+
+ul.personneldirectory li.dirperson {
+  height: 12.14286em;
+}
+
+ul.personneldirectory li.dirperson .views-field-field-person-closeup {
+  float: left;
+}
+
+#views_slideshow_cycle_teaser_section_news_display-block {
+  padding: 0;
+}
+
+#widget_pager_bottom_news_display-block {
+  display: block;
+}
+
+#widget_pager_bottom_news_display-block div.views_slideshow_pager_field_item.active {
+  color: #224970;
+  background-color: #f1f1f1;
+}
+
+#widget_pager_bottom_news_display-block div.views_slideshow_pager_field_item {
+  margin: 0.21429em;
+  width: 1.5em;
+  border: 0.21429em solid #cccccc;
+  padding: 0.21429em;
+  background: #cccccc;
+  color: #224970;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.78571em 0.78571em 0.78571em 0.78571em;
+  float: left;
+}
+
+#widget_pager_bottom_news_display-block div.views_slideshow_pager_field_item div {
+  display: inline;
+}

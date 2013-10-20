@@ -1,0 +1,55 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+#region-branding h1.site-name {
+  width: 700px;
+  height: 123px;
+  background: url("/sites/all/themes/treefive/images/combined_banner_700.png") no-repeat scroll top left;
+}
+
+#support,
+#facebook {
+  padding: 12px 0 0 60px;
+}
+
+#section-footer {
+  font-size: 0.71429em;
+  line-height: 1.4em;
+}
+
+#block-block-5, #block-block-6, #block-views-calendar-block-3 {
+  width: 220px;
+}
+
+.sf-menu.sf-style-default a {
+  width: 5.33333em;
+}
+
+.sf-menu.sf-style-default li.last.sf-depth-1 > a {
+  width: 5.66667em;
+}
+
+ul.personneldirectory li.dirperson .views-field {
+  margin-left: 120px;
+}
+
+ul.personneldirectory li.dirperson .views-field-title {
+  margin-left: 0;
+}
+
+ul.personneldirectory li.dirperson .views-field-field-person-closeup {
+  margin: 0;
+}
+
+#views_slideshow_cycle_teaser_section_news_display-block div.views-field-body {
+  width: 11.42857em;
+  height: 284px;
+  background-color: #ffffff;
+  opacity: 0.72;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#views_slideshow_cycle_teaser_section_news_display-block div.views-field-body div.field-content {
+  margin: 1.35714em 0.71429em;
+}
+

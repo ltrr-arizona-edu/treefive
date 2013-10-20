@@ -1,0 +1,326 @@
+/* This file will hold the main styles for your website. */
+.screenreader {
+  display: block;
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Verdana,Geneva,"DejaVu Sans",sans-serif;
+    font-size: 0.875em;
+    line-height: 1.35714em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: Futura,"Avant Garde","Century Gothic",Avenir,sans-serif; */
+  font-family: Helvetica,Arial,"Lucida Grande",Verdana,sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 1.71429em;
+  line-height: 1.08333em;
+  margin: 0.5em 0 0.79166em 0;
+}
+
+h2 {
+  font-size: 1.35714em;
+  line-height: 1.15789em;
+  margin: 0.84211em 0 1em 0;
+}
+
+h1.site-name,
+h2.site-name {
+  font-size: 1.71429em;
+  line-height: 1.08333em
+  margin: 0.5em 0 0.79166em 0;
+}
+
+#region-content h2.block-title {
+  font-size: 1.28571em;
+  line-height: 1.05556em;
+  margin: 0 0 1.05556em 0;
+  padding: 0.94444em 0 0 0;
+  border-top: 0.11111em solid #cccccc;
+}
+
+h2.block-title {
+  font-size: 1.28571em;
+  line-height: 1.05556em;
+  margin: 0;	
+}
+
+h2.node-title {
+  font-size: 1.35714em;
+  line-height: 1.15789em;
+  margin: 0.84211em 0 1em 0;
+}
+
+h3 {
+  font-size: 1.21429em;
+  margin: 1.11765em 0;
+}
+
+h4 {
+  font-size: 1.14286em;
+  margin: 1.1875em 0;
+}
+
+h5 {
+  font-size: 1.07143em;
+  margin: 1.26667em 0;
+}
+
+h6 {
+  font-size: 1.07143em;
+  margin: 0;
+}
+
+p,
+dl,
+hr,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset  {
+  margin: 1.35714em 0;
+}
+
+a,
+a:link,
+a:visited {
+    color: #224970;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#zone-institution-wrapper {
+    height: 2.71429em;
+    overflow: hidden;
+}
+
+#zone-institution {
+    background-color: #003366;
+    color: #FFFFFF;
+    height: 2.71429em;
+    overflow: hidden;
+}
+
+#uofa-logo {
+    border: medium none;
+    height: 26px;
+    padding: 10px 18px 2px 10px;
+    text-decoration: none;
+    width: 300px;
+}
+
+#region-branding h1.site-name,
+#region-header-first nav.navigation,
+#block-search-form {
+  margin: 10px 0 0 0;
+}
+
+#region-branding .logo-img {
+  display: block;
+  width: 100%;
+}
+
+#logo {
+  max-width: 100%;
+}
+
+.node ol, .node ul {
+  padding-left: 2.14286em;
+}
+
+.node .field-label {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tree5menu {
+  margin: 0;
+  padding: 0;
+}
+
+#region-sidebar-second {
+  text-align: center;
+}
+
+#section-footer {
+  text-align: center;
+}
+
+#region-postscript-second h2.block-title {
+  display: none;
+}
+
+#block-menu-menu-utility-links ul.tree5menu {
+  font: inherit;
+  border-bottom: 0 none;
+  text-align: center;
+  margin: 1.35714em 0;
+}
+
+#block-menu-menu-utility-links ul.tree5menu li.last:after {
+  content: none;
+}
+
+#block-menu-menu-utility-links ul.tree5menu li:after {
+  content: "|";
+  margin: 0 0.33333em 0 0;
+}
+
+#block-menu-menu-utility-links ul.tree5menu li, 
+#block-menu-menu-utility-links ul.tree5menu li.expanded, 
+#block-menu-menu-utility-links ul.tree5menu li.collapsed,
+#block-menu-menu-utility-links ul.tree5menu li.leaf {
+  display: inline;
+  position: static;
+  float: none;
+}
+
+#block-menu-menu-utility-links ul.tree5menu li a,
+#block-menu-menu-utility-links ul.tree5menu li.expanded a,
+#block-menu-menu-utility-links ul.tree5menu li.collapsed a,
+#block-menu-menu-utility-links ul.tree5menu li.leaf a {
+  display: inline;
+  margin: 0 0.33333em 0 0;
+  width: auto;
+  border-right:  0 none;
+  border-bottom: 0 none;
+  border-left: 0 none;
+  border-top: 0 none;
+  padding: 0;
+  background:  none repeat scroll 0 0 transparent;
+  color: #000000;
+  text-transform: uppercase;
+  border-radius: 0 0 0 0;
+  white-space: nowrap;
+}
+
+#region-content a:hover,
+#block-menu-menu-utility-links ul.tree5menu li a:hover,
+#block-menu-menu-utility-links ul.tree5menu li.expanded a:hover,
+#block-menu-menu-utility-links ul.tree5menu li.collapsed a:hover,
+#block-menu-menu-utility-links ul.tree5menu li.leaf a:hover {
+  color: #224970;
+  background-color: #f1f1f1;
+}
+
+ul.tree5menu ul.tree5menu {
+   font: inherit;
+}
+
+ul.tree5menu li, 
+ul.tree5menu li.expanded, 
+ul.tree5menu li.collapsed,
+ul.tree5menu li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  position: static;
+  float: none;
+}
+
+ul.tree5menu {
+  font-size: 0.85714em;
+  line-height: 2.83333em;
+  text-align: center;
+}
+
+.sf-menu.sf-style-default {
+  font-size: 0.85714em;
+  line-height: 1.25em;
+}
+
+ul.tree5menu,
+.sf-menu.sf-style-default {
+  border: none;
+  background: transparent;
+}
+
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+    background: transparent;
+}
+
+ul.tree5menu li a,
+ul.tree5menu li.expanded a,
+ul.tree5menu li.collapsed a,
+ul.tree5menu li.leaf a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+  margin: 0.25em;
+  width: 5.33333em;
+  border: 0.25em solid #cccccc;
+  padding: 0.25em 0.5em;
+  background: #cccccc;
+  color: #224970;
+  text-decoration: none;
+  border-radius: 0.75em 0.75em 0.75em 0.75em;
+}
+
+ul.tree5menu li a {
+  white-space: nowrap;
+}
+
+.sf-menu.sf-style-default a.active  {
+  background: #ffffff;
+  color: #003399;
+}
+
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover {
+    background: transparent;
+}
+
+ul.tree5menu li a:hover,
+ul.tree5menu li.expanded a:hover,
+ul.tree5menu li.collapsed a:hover,
+ul.tree5menu li.leaf a:hover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active {
+  background: #eeeeee;
+  color: #224970;
+}
+
+ul.personneldirectory li.dirperson {
+  margin: 0;
+  border-top: 0.07143em solid #cccccc;
+}
+
+ul.personneldirectory li.dirperson .views-label {
+  font-style: italic;
+}
+
+#block-views-news-display-block {
+  clear: both;
+}
+
+#views_slideshow_cycle_teaser_section_news_display-block {
+  padding: 0 0 2.71429em 0;
+  width: 460px;
+  height: 284px;
+}
+
+#widget_pager_bottom_news_display-block {
+  display: none;
+}
